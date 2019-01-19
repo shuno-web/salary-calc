@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>給料計算機</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>給料計算機</h1>
+    <p>以下のどれか１つに数値を入力して「計算する」ボタンを押してください。</p>
+    <p>ざっくりと計算します。税金などは考慮しません。</p>
+    <div class="box">
+      時給<input type="text" id="hour" size="15">
+    </div>
+    <div class="box">
+      月給<input type="text" id="month" size="15">
+    </div>
+    <div class="box">
+      年収<input type="text" id="year" size="15">
+    </div>
+    <div id="calc" class="btn">計算する</div>
+    <div id="reset" class="btn">リセット</div>
+
+    <script src="salary.js"></script>
+</body>
+</html>
